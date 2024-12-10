@@ -1,4 +1,4 @@
-# The Simple Regression Model (SLR) {.unnumbered}
+# Lecture 2
 
 In this chapter, we will use the following packages:
 

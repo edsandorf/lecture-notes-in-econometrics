@@ -1,8 +1,8 @@
 {
-  "hash": "87f37b70e972ea82e3822ab4f48ab9a5",
+  "hash": "2b691f67af13bf938102e443dfb0049e",
   "result": {
     "engine": "knitr",
-    "markdown": "# The Simple Regression Model (SLR) {.unnumbered}\n\nIn this chapter, we will use the following packages:\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(wooldridge)\n```\n:::\n\n\n\n\n\n\nThe simple regression model.\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmodel_1 <- lm(wage ~ exper, data = wage1)\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nrlang::f_lhs(model_1$call$formula)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nwage\n```\n\n\n:::\n:::\n\n\n\n\n\n\n# References {.unnumbered}\n",
+    "markdown": "# Lecture 2\n\nIn this chapter, we will use the following packages:\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(wooldridge)\n```\n:::\n\n\n\n\n\n\nThe simple regression model.\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmodel_1 <- lm(wage ~ exper, data = wage1)\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nrlang::f_lhs(model_1$call$formula)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nwage\n```\n\n\n:::\n:::\n\n\n\n\n\n\n# References {.unnumbered}\n",
     "supporting": [
       "lecture-02_files"
     ],
