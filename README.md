@@ -12,4 +12,5 @@ Econometrics](https://www.nmbu.no/en/course/ecn201 "Link to the course website")
 at the School of Economics and Business at Norwegian University of Life
 Sciences.
 
-The Github repository makes use of the `revn` package.
+The Github repository makes use of the `revn`
+[package](https://rstudio.github.io/renv/articles/renv.html "Link to the renv packagedown page").
