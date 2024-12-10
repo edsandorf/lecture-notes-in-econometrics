@@ -1,0 +1,15 @@
+{
+  "hash": "a1c5edb16e41a28cbebf696b513833cd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# The Simple Regression Model (SLR) {.unnumbered}\n\nIn this chapter, we will use the following packages:\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(wooldridge)\n```\n:::\n\n\n\n\n\n\nThe simple regression model.\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmodel_1 <- lm(wage ~ exper, data = wage1)\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nrlang::f_lhs(model_1$call$formula)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nwage\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

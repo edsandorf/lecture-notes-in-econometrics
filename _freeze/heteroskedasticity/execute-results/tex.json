@@ -1,0 +1,21 @@
+{
+  "hash": "76aa5def344c23e473b83530a7a21940",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Heteroskedasticity {.unnumbered}\n\nIn this chapter, we will use the following packages:\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(wooldridge)\nlibrary(lmtest)\n```\n:::\n\n\n\n\n\n\nWe the constant variance assumption.\n\n$$\n\\text{Var}(u_i|X)=\\sigma^2\n$$\n\nHeteroskedasticity is a violation of the constant variance assumption and instead we have:\n\n$$\n\\text{Var}(u_i|X)=\\sigma^2_i\n$$\n\n## How to detect heteroskedasticity?\n\n\nWe can test for heteroskedasticity using the Breusch-Pagan test. The null hypothesis is that there is no heteroskedasticity. The alternative hypothesis is that there is heteroskedasticity.\n\n",
+    "supporting": [
+      "heteroskedasticity_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

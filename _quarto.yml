@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Lecture Notes in Econometrics"
+  author: "Erlend Dancke Sandorf"
+  date: "7/3/2024"
+  chapters:
+    - index.qmd
+    - lecture-01.qmd
+    - lecture-02.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+execute:
+  freeze: auto
+
+editor: visual

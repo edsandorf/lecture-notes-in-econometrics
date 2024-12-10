@@ -1,0 +1,22 @@
+# The Simple Regression Model (SLR) {.unnumbered}
+
+In this chapter, we will use the following packages:
+
+```{r}
+#| echo: true
+#| output: false
+
+library(tidyverse)
+library(wooldridge)
+
+```
+
+The simple regression model.
+
+```{r}
+model_1 <- lm(wage ~ exper, data = wage1)
+```
+
+```{r}
+rlang::f_lhs(model_1$call$formula)
+```
