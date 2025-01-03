@@ -33,5 +33,3 @@ $$
 ## How to detect heteroskedasticity?
 
 We can test for heteroskedasticity using the Breusch-Pagan test. The null hypothesis is that there is no heteroskedasticity. The alternative hypothesis is that there is heteroskedasticity.
-
-# References {.unnumbered}
