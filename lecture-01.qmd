@@ -1,0 +1,35 @@
+# Lecture 1
+
+## What is Econometrics?
+
+## Types of data
+
+# Heteroskedasticity {.unnumbered}
+
+In this chapter, we will use the following packages:
+
+```{r}
+#| echo: true
+#| output: false
+
+library(tidyverse)
+library(wooldridge)
+library(lmtest)
+
+```
+
+We the constant variance assumption.
+
+$$
+\text{Var}(u_i|X)=\sigma^2
+$$
+
+Heteroskedasticity is a violation of the constant variance assumption and instead we have:
+
+$$
+\text{Var}(u_i|X)=\sigma^2_i
+$$
+
+## How to detect heteroskedasticity?
+
+We can test for heteroskedasticity using the Breusch-Pagan test. The null hypothesis is that there is no heteroskedasticity. The alternative hypothesis is that there is heteroskedasticity.

@@ -1,0 +1,9 @@
+# Preface {.unnumbered}
+
+This book is a collection of lecture notes and resources for ECN201 Econometrics at the School of Economics and Business at the Norwegian University of Life Sciences.
+
+The class assumes that you are familiar with R. If you are not familiar with R, you are strongly encouraged to get familiar before proceeding. Excellent resources include @grolemund2014hands and @wickham2023r.
+
+The book follows closely @wooldridge2019 and (re-)uses many of the examples from that book. Lecture Notes in Econometrics is a teaching compendium and a free supplement to @wooldridge2019.
+
+# References {.unnumbered}
