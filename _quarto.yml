@@ -10,8 +10,9 @@ book:
     - preface.qmd
     - part: introduction.qmd
       chapters:
+        - what-is-econometrics.qmd
         - economic-data.qmd
-        - plotting-data.qmd
+        - visualizing-data.qmd
     - part: simple-linear-regression.qmd
     - references.qmd
   appendices:

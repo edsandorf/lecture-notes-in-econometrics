@@ -1,3 +1,3 @@
-# Acknowledgements {.unnumbered}
+# Welcome {.unnumbered}
 
 This book is the result of input and revisions based on input from collaborators, colleagues, and students taking my classes in econometrics.

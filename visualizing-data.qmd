@@ -1,4 +1,4 @@
-# Graphical representation of data
+# Visualizing data
 
 In this chapter, we will use the following packages:
 

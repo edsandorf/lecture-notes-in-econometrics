@@ -1,4 +1,4 @@
-# Economic data
+# Types of economic data
 
 Different types of econometric models are needed for different types of economic data.
 
