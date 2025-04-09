@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Lecture Notes in Econometrics",
     "section": "",
-    "text": "Preface\nThis book is a collection of lecture notes and resources for ECN201 Econometrics at the School of Economics and Business at the Norwegian University of Life Sciences.\nThe class assumes that you are familiar with R. If you are not familiar with R, you are strongly encouraged to get familiar before proceeding. Excellent resources include Grolemund (2014) and Wickham, Çetinkaya-Rundel, and Grolemund (2023).\nThe book follows closely Wooldridge (2019) and (re-)uses many of the examples from that book. Lecture Notes in Econometrics is a teaching compendium and a free supplement to Wooldridge (2019).\n\n\nReferences\n\n\n\n\nGrolemund, Garrett. 2014. Hands-on Programming with r: Write Your Own Functions and Simulations. \" O’Reilly Media, Inc.\".\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. R for Data Science. \" O’Reilly Media, Inc.\".\n\n\nWooldridge, Jeffrey. 2019. Introductory Econometrics - a Modern Approach. 7th ed. South-Western College Publishing.",
+    "text": "Acknowledgements\nThis book is the result of input and revisions based on input from collaborators, colleagues, and students taking my classes in econometrics.",
     "crumbs": [
-      "Preface"
+      "Acknowledgements"
     ]
   },
   {
@@ -14,53 +14,84 @@
     "href": "preface.html",
     "title": "Preface",
     "section": "",
-    "text": "What is econometrics?",
+    "text": "What is econometrics?\nThis book is a living document of how to do econometrics in R. It is the result of many years doing applied econometric research and teaching econometrics to students. This book contains many practical examples that I use extensively in my teaching to illustrate theoretical points as well as practical implications. In my teaching, I rely on the excellent introductory textbook by Jeffrey Wooldridge (Wooldridge 2019), and use and reproduce many of the examples from that book.\nLecture Notes in Econometrics assumes that you are familiar with R. If you are not familiar with R, you are strongly encouraged to get familiar before proceeding. Excellent resources include Grolemund (2014) and Wickham, Çetinkaya-Rundel, and Grolemund (2023).",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "lecture-01.html",
-    "href": "lecture-01.html",
-    "title": "1  Lecture 1",
+    "objectID": "preface.html#what-is-econometrics",
+    "href": "preface.html#what-is-econometrics",
+    "title": "Preface",
     "section": "",
-    "text": "1.1 What is Econometrics?",
+    "text": "Grolemund, Garrett. 2014. Hands-on Programming with r: Write Your Own Functions and Simulations. O’Reilly Media, Inc.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. R for Data Science. O’Reilly Media, Inc.\n\n\nWooldridge, Jeffrey. 2019. Introductory Econometrics - a Modern Approach. 7th ed. South-Western College Publishing.",
     "crumbs": [
-      "Simple linear regression",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture 1</span>"
+      "Preface"
     ]
   },
   {
-    "objectID": "lecture-01.html#types-of-data",
-    "href": "lecture-01.html#types-of-data",
-    "title": "1  Lecture 1",
-    "section": "1.2 Types of data",
-    "text": "1.2 Types of data",
-    "crumbs": [
-      "Simple linear regression",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture 1</span>"
-    ]
-  },
-  {
-    "objectID": "lecture-01.html#how-to-detect-heteroskedasticity",
-    "href": "lecture-01.html#how-to-detect-heteroskedasticity",
-    "title": "1  Lecture 1",
-    "section": "1.3 How to detect heteroskedasticity?",
-    "text": "1.3 How to detect heteroskedasticity?\nWe can test for heteroskedasticity using the Breusch-Pagan test. The null hypothesis is that there is no heteroskedasticity. The alternative hypothesis is that there is heteroskedasticity.",
-    "crumbs": [
-      "Simple linear regression",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture 1</span>"
-    ]
-  },
-  {
-    "objectID": "lecture-02.html",
-    "href": "lecture-02.html",
-    "title": "2  Lecture 2",
+    "objectID": "economic-data.html",
+    "href": "economic-data.html",
+    "title": "1  Economic data",
     "section": "",
-    "text": "In this chapter, we will use the following packages:\n\nlibrary(tidyverse)\nlibrary(wooldridge)\n\nThe simple regression model.\n\nmodel_1 &lt;- lm(wage ~ exper, data = wage1)\n\n\nrlang::f_lhs(model_1$call$formula)\n\nwage\n\n\n\nReferences",
+    "text": "1.1 Cross-sectional data\nDifferent types of econometric models are needed for different types of economic data.",
     "crumbs": [
-      "Simple linear regression",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Lecture 2</span>"
+      "Introduction to econometrics and economic data",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Economic data</span>"
+    ]
+  },
+  {
+    "objectID": "economic-data.html#time-series-data",
+    "href": "economic-data.html#time-series-data",
+    "title": "1  Economic data",
+    "section": "1.2 Time-series data",
+    "text": "1.2 Time-series data",
+    "crumbs": [
+      "Introduction to econometrics and economic data",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Economic data</span>"
+    ]
+  },
+  {
+    "objectID": "economic-data.html#panel-data",
+    "href": "economic-data.html#panel-data",
+    "title": "1  Economic data",
+    "section": "1.3 Panel data",
+    "text": "1.3 Panel data",
+    "crumbs": [
+      "Introduction to econometrics and economic data",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Economic data</span>"
+    ]
+  },
+  {
+    "objectID": "economic-data.html#how-to-detect-heteroskedasticity",
+    "href": "economic-data.html#how-to-detect-heteroskedasticity",
+    "title": "1  Economic data",
+    "section": "1.4 How to detect heteroskedasticity?",
+    "text": "1.4 How to detect heteroskedasticity?\nWe can test for heteroskedasticity using the Breusch-Pagan test. The null hypothesis is that there is no heteroskedasticity. The alternative hypothesis is that there is heteroskedasticity.",
+    "crumbs": [
+      "Introduction to econometrics and economic data",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Economic data</span>"
+    ]
+  },
+  {
+    "objectID": "plotting-data.html",
+    "href": "plotting-data.html",
+    "title": "2  Graphical representation of data",
+    "section": "",
+    "text": "In this chapter, we will use the following packages:\n\nlibrary(tidyverse)\nlibrary(wooldridge)\n\nThe importance of plotting your data cannot be understated. A good graph can reveal patterns in the data that guide model building or extreme observations that point to potential data problems. It is hard to build a model\n\nmodel_1 &lt;- lm(wage ~ exper, data = wage1)\n\n\nrlang::f_lhs(model_1$call$formula)\n\nwage\n\n\n\nReferences",
+    "crumbs": [
+      "Introduction to econometrics and economic data",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Graphical representation of data</span>"
+    ]
+  },
+  {
+    "objectID": "simple-linear-regression.html",
+    "href": "simple-linear-regression.html",
+    "title": "The Simple Linear Regression (SLR) model",
+    "section": "",
+    "text": "In this chapter, we will use the following packages:\n\nlibrary(tidyverse)\nlibrary(wooldridge)\n\n\nmodel_1 &lt;- lm(wage ~ exper, data = wage1)\n\n\nrlang::f_lhs(model_1$call$formula)\n\nwage\n\n\n\nReferences",
+    "crumbs": [
+      "The Simple Linear Regression (SLR) model"
     ]
   },
   {
@@ -68,9 +99,20 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Grolemund, Garrett. 2014. Hands-on Programming with r: Write Your\nOwn Functions and Simulations. \" O’Reilly Media, Inc.\".\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for Data Science. \" O’Reilly Media, Inc.\".\n\n\nWooldridge, Jeffrey. 2019. Introductory Econometrics - a Modern\nApproach. 7th ed. South-Western College Publishing.",
+    "text": "Grolemund, Garrett. 2014. Hands-on Programming with r: Write Your\nOwn Functions and Simulations. O’Reilly Media, Inc.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023.\nR for Data Science. O’Reilly Media, Inc.\n\n\nWooldridge, Jeffrey. 2019. Introductory Econometrics - a Modern\nApproach. 7th ed. South-Western College Publishing.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "installing-r.html",
+    "href": "installing-r.html",
+    "title": "Appendix A — Installing R and RStudio",
+    "section": "",
+    "text": "A.1 Installing R\nR is an open source and freely available language and environment for statistical computing and graphics.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Installing R and RStudio</span>"
     ]
   }
 ]
