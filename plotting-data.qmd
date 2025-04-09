@@ -1,4 +1,4 @@
-# The Simple Linear Regression (SLR) model
+# Graphical representation of data
 
 In this chapter, we will use the following packages:
 
@@ -10,6 +10,8 @@ library(tidyverse)
 library(wooldridge)
 
 ```
+
+The importance of plotting your data cannot be understated. A good graph can reveal patterns in the data that guide model building or extreme observations that point to potential data problems. It is hard to build a model
 
 ```{r}
 model_1 <- lm(wage ~ exper, data = wage1)

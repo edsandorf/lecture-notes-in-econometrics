@@ -1,3 +1,7 @@
 # Preface {.unnumbered}
 
+This book is a living document of how to do econometrics in R. It is the result of many years doing applied econometric research and teaching econometrics to students. This book contains many practical examples that I use extensively in my teaching to illustrate theoretical points as well as practical implications. In my teaching, I rely on the excellent introductory textbook by Jeffrey Wooldridge [@wooldridge2019], and use and reproduce many of the examples from that book.
+
+Lecture Notes in Econometrics assumes that you are familiar with R. If you are not familiar with R, you are strongly encouraged to get familiar before proceeding. Excellent resources include @grolemund2014hands and @wickham2023r.
+
 ## What is econometrics?

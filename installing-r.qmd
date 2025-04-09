@@ -1,1 +1,5 @@
 # Installing R and RStudio
+
+## Installing R
+
+R is an open source and freely available language and environment for statistical computing and graphics.

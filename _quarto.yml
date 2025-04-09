@@ -8,10 +8,11 @@ book:
   chapters:
     - index.qmd
     - preface.qmd
-    - part: simple-linear-regression.qmd
+    - part: introduction.qmd
       chapters:
-        - lecture-01.qmd
-        - lecture-02.qmd
+        - economic-data.qmd
+        - plotting-data.qmd
+    - part: simple-linear-regression.qmd
     - references.qmd
   appendices:
     - installing-r.qmd  

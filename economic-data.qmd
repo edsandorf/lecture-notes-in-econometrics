@@ -1,8 +1,12 @@
-# Lecture 1
+# Economic data
 
-## What is Econometrics?
+Different types of econometric models are needed for different types of economic data.
 
-## Types of data
+## Cross-sectional data
+
+## Time-series data
+
+## Panel data
 
 # Heteroskedasticity {.unnumbered}
 
